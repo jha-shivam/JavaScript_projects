@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "popins", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.main {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.card {
+  width: 100%;
+  height:100%;
+  margin-top: 300px;
+  outline: none;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.label1{
+    font-size: large;
+    font-weight: 800;
+    padding: 2px;
+    color: #090808;
+}
+.input_1{
+    box-shadow: 2px 4px 2px 4px rgba(0,0,0,0.5);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.442);
+    border-radius: 20px;
+}
+#city{
+    padding: 4px;
+    padding-left: 6px;
+    height: 20px;
+    width: 80%;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    border: 1px;
+}
+button.normal{
+    padding: 8px;
+    outline: none;
+    border: none;
+    margin: auto;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: beige;
+
+}
