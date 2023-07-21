@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#ff0066,#003399);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.hero h1{
+    font-size:45px;
+    font-weight: 500; /*text jada patla karva */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hero h1 span{
+    color: #ff2963;
+}
+textarea{
+    width: 600px;
+    height:250px;
+    background: #3a3d46;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size:16px;
+    color: #ddd;
+}
+textarea:hover {
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+  }
+.row{
+    width:600px;
+    display:flex;
+    align-items: center;
+    gap: 20px; 
+}
+button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 18px;
+    padding: 17px 30px;
+    border-radius:35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+button img{
+    width: 16px ;
+    margin-right: 10px;}
+
+button:active{
+    transform: translateY(2px);
+    background-color: #6f8545;
+}
+
+select{
+    flex:1;
+    color: #fff;
+    background:#003399;
+    height: 55px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none; /*dropdown icon will be hide using this*/
+    background-image:url(images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y:13px;
+    background-position-x:410px;
+}
